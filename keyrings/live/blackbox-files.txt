@@ -1,0 +1,2 @@
+kube-apiserver-secret.yaml
+kube-controller-manager-secret.yaml
