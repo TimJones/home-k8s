@@ -1,0 +1,16 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  creationTimestamp: 2018-01-21T07:14:22Z
+  name: tiller
+  resourceVersion: "75963"
+  selfLink: /apis/rbac.authorization.k8s.io/v1/clusterrolebindings/tiller
+  uid: b491a579-fe7a-11e7-a33c-02000d841f93
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: tiller
+  namespace: kube-system

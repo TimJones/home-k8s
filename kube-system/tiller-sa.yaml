@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: 2018-01-21T07:12:46Z
+  name: tiller
+  namespace: kube-system
+  resourceVersion: "75756"
+  selfLink: /api/v1/namespaces/kube-system/serviceaccounts/tiller
+  uid: 7b13ffeb-fe7a-11e7-a33c-02000d841f93
+secrets:
+- name: tiller-token-8v9kw
